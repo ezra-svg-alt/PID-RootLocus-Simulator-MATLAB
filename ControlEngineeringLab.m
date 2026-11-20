@@ -80,8 +80,8 @@ classdef ControlEngineeringLab < matlab.apps.AppBase
 
     properties (Access = private)
         % Kredensial Login Default 
-        ValidUser = 'ezra';
-        ValidPass = '612024008';
+        ValidUser = '';
+        ValidPass = '';
         ActualPassword = '';
 
         % Data Internal Root Locus
